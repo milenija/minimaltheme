@@ -6755,3 +6755,167 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float:right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.logoSlika {
+  margin-top: 8px;
+  margin-left: 100px;
+}
+li:hover {
+  background-color: lightgrey;
+}
+
+li a:hover {
+  color: indigo;
+}
+
+/*Posle slidera*/
+.image-holder {
+  background-image: url("../img/about-background.jpg");
+    background-color: #cccccc;
+    width:50%;
+    height:700px;
+    float: left;
+    margin-top: -5px;
+ 
+}
+
+.text-holder {
+  float: right;
+  width: 50%;
+  margin-top: -5px;
+
+
+}
+
+.about {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  padding: 0 0 35px;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 500px;
+}
+
+.blueP {
+  color: #0D4494;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 500px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.greyP {
+  margin-left: 100px;
+  width: 500px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5E5E5E;
+  font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.greyPBorder {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  width: 500px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5E5E5E;
+  font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+
+}
+
+/*OUR TEAM */
+.grey-surface {
+  background: #F5F7FA;
+  width: 100%;
+  height: 700px;
+  margin-top: -20px;
+}
+
+.ourteam {
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 90px;
+}
+.center {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.oneOfThree {
+  background: white;
+  width: 25%;
+  margin-right: 30px;
+
+}
+
+.blueTitle {
+  text-align: center;
+  padding-top: 10px;
+  color: #0d4494;
+  letter-spacing: 2px;
+  border-radius: 0 0 2px 2px;
+  font: 700 12px 'Montserrat', sans-serif;
+}
+
+.greyTitle {
+  text-align: center;
+  color:#999999;
+  font: 400 10px 'Montserrat', sans-serif;
+}
+
+.buyNow {
+  background: url('../img/buy-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  height: auto;
+  padding: 45px 0 35px;
+  text-align: center;
+  width: 100%;
+}
+
+.purchaseText {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.button-purchase {
+  font:700 12px 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  margin: 20px 0 10px;
+  padding: 12px 24px;
+  transition: all 0.1s ease-in 0s;
+  text-align: center;
+  background: rgba(13, 68, 148, 1);
+  color: white;
+}
